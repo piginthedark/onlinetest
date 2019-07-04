@@ -7,13 +7,19 @@
 	<body>
 		<div>
 		<button type="button" id="btn1">开始测试</button>
+		
+		<button type="button" id="btn2">查看试卷</button>
 		</div>
 	</body>
 	<script src="scripts/jquery-3.11min.js"></script>
 	<script>
-		var dobtn = document.getElementById("btn1");
-		dobtn.onclick = function(){
+		var dobtn1 = document.getElementById("btn1");
+		dobtn1.onclick = function(){
 			location = "online test.html";
+		}
+		var dobtn2 = document.getElementById("btn2");
+		dobtn2.onclick = function(){
+			location = "testview.html"
 		}
 		</script>
 </html>
